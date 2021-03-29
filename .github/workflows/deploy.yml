@@ -22,5 +22,5 @@ jobs:
         with:
           node-version: 12
       - run: npm install --frozen-lockfile
-      - run: npm build
+      - run: npm run build
         
